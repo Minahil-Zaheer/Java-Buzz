@@ -1,0 +1,28 @@
+# robots.txt for Java Buzz Coffee Shop
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Disallow crawling of order confirmation pages
+Disallow: /order-confirmation/
+
+# Disallow crawling of admin areas (if any in future)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl-delay for well-behaved bots (optional)
+Crawl-delay: 10
+
+# Specific rules for common search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
