@@ -7,7 +7,7 @@ const menuData = [
         category: "hot-coffee",
         price: 3.50,
         description: "Rich and bold, a perfect shot of pure coffee",
-        image: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&q=80"
+        image: "img/espresso.jpg"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const menuData = [
         category: "hot-coffee",
         price: 4.00,
         description: "Espresso with hot water for a smooth taste",
-        image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&q=80"
+        image: "img/americano.jpg"
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ const menuData = [
         category: "hot-coffee",
         price: 4.50,
         description: "Espresso with steamed milk and thick foam",
-        image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&q=80"
+        image: "img/cappuccino.jpg"
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ const menuData = [
         category: "hot-coffee",
         price: 4.75,
         description: "Smooth espresso with creamy steamed milk",
-        image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80"
+        image: "img/latte.jpg"
     },
     {
         id: 5,
@@ -39,7 +39,7 @@ const menuData = [
         category: "hot-coffee",
         price: 5.25,
         description: "Rich chocolate blended with espresso and milk",
-        image: "https://images.unsplash.com/photo-1578374173705-600ed9d39c3f?w=400&q=80"
+        image: "img/mocha.jpg"
     },
     {
         id: 6,
@@ -47,7 +47,7 @@ const menuData = [
         category: "hot-coffee",
         price: 5.50,
         description: "Vanilla and caramel with espresso and milk",
-        image: "https://images.unsplash.com/photo-1599639957043-f3aa5c986398?w=400&q=80"
+        image: "img/caramel-macchiato.jpg"
     },
     {
         id: 7,
@@ -55,7 +55,7 @@ const menuData = [
         category: "hot-coffee",
         price: 4.50,
         description: "Velvety microfoam over a double shot of espresso",
-        image: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80"
+        image: "img/flat-white.webp"
     },
     {
         id: 8,
@@ -73,7 +73,7 @@ const menuData = [
         category: "cold-coffee",
         price: 5.00,
         description: "Chilled espresso with cold milk over ice",
-        image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&q=80"
+        image: "img/iced-latte.webp"
     },
     {
         id: 10,
@@ -81,7 +81,7 @@ const menuData = [
         category: "cold-coffee",
         price: 4.75,
         description: "Smooth, slow-steeped coffee served cold",
-        image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&q=80"
+        image: "img/coldbrew.jpg"
     },
     {
         id: 11,
@@ -89,7 +89,7 @@ const menuData = [
         category: "cold-coffee",
         price: 4.25,
         description: "Espresso shots over ice with cold water",
-        image: "https://images.unsplash.com/photo-1592663527359-cf6642f54cff?w=400&q=80"
+        image: "img/icedamericano.jpg"
     },
     {
         id: 12,
@@ -97,7 +97,7 @@ const menuData = [
         category: "cold-coffee",
         price: 5.50,
         description: "Blended iced coffee with whipped cream",
-        image: "https://images.unsplash.com/photo-1567442783190-1e6e2c89b90a?w=400&q=80"
+        image: "img/frappe.jpeg"
     },
     {
         id: 13,
@@ -105,7 +105,7 @@ const menuData = [
         category: "cold-coffee",
         price: 5.75,
         description: "Chocolate and espresso over ice with milk",
-        image: "https://images.unsplash.com/photo-1578374173705-600ed9d39c3f?w=400&q=80"
+        image: "img/iced mocha.jpg"
     },
     {
         id: 14,
@@ -113,7 +113,7 @@ const menuData = [
         category: "cold-coffee",
         price: 5.25,
         description: "Sweet vanilla flavor with iced coffee",
-        image: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&q=80"
+        image: "img/iced-vanilla-latte-2.webp"
     },
     
     // Pastries
@@ -139,7 +139,7 @@ const menuData = [
         category: "pastries",
         price: 3.50,
         description: "Fresh blueberries in a buttery scone",
-        image: "https://images.unsplash.com/photo-1588195538326-c5b1e5b2f2e5?w=400&q=80"
+        image: "img/blueberry-scone.jpg"
     },
     {
         id: 18,
@@ -147,15 +147,7 @@ const menuData = [
         category: "pastries",
         price: 4.25,
         description: "Sweet roll with cinnamon and cream cheese frosting",
-        image: "https://images.unsplash.com/photo-1619985663572-dd62abee4cda?w=400&q=80"
-    },
-    {
-        id: 19,
-        name: "Danish Pastry",
-        category: "pastries",
-        price: 3.75,
-        description: "Flaky pastry with sweet fruit filling",
-        image: "https://images.unsplash.com/photo-1559703248-dcaaec9fab78?w=400&q=80"
+        image: "img/cinnamon-roll.jpg"
     },
     {
         id: 20,
@@ -163,7 +155,7 @@ const menuData = [
         category: "pastries",
         price: 3.25,
         description: "Moist banana bread with walnuts",
-        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&q=80"
+        image: "img/bananabread.jpg"
     },
     
     // Snacks
@@ -173,7 +165,7 @@ const menuData = [
         category: "snacks",
         price: 4.00,
         description: "Fresh bagel with plain or flavored cream cheese",
-        image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80"
+        image: "img/Bagel_CreamCheese.webp"
     },
     {
         id: 22,
@@ -205,7 +197,7 @@ const menuData = [
         category: "snacks",
         price: 2.50,
         description: "Homemade granola with nuts and dried fruits",
-        image: "https://images.unsplash.com/photo-1606312619070-d48b4f0a4e6f?w=400&q=80"
+        image: "img/granola.jpg"
     },
     {
         id: 26,
@@ -264,17 +256,6 @@ const blogData = [
         readTime: "7 min read"
     },
     {
-        id: 5,
-        title: "Sustainable Coffee: Why It Matters",
-        author: "Lisa Anderson",
-        date: "2024-01-20",
-        category: "Sustainability",
-        excerpt: "Learn why choosing sustainable coffee is crucial for the environment, farmers, and the future of coffee itself.",
-        content: "The global coffee industry faces significant environmental and social challenges. Climate change threatens coffee-growing regions, while many coffee farmers struggle with poverty. Sustainable coffee practices address these issues through fair trade, organic farming, and environmental conservation...",
-        image: "https://images.unsplash.com/photo-1501492585094-8e08c0f5e4e2?w=800&q=80",
-        readTime: "6 min read"
-    },
-    {
         id: 6,
         title: "Espresso 101: A Beginner's Guide",
         author: "David Martinez",
@@ -296,59 +277,4 @@ const blogData = [
         image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80",
         readTime: "6 min read"
     },
-    {
-        id: 8,
-        title: "Cold Brew vs. Iced Coffee: The Real Difference",
-        author: "Ryan Thompson",
-        date: "2024-01-02",
-        category: "Brewing Tips",
-        excerpt: "These two cold coffee beverages may seem similar, but they're actually quite different in taste and preparation.",
-        content: "Many people use the terms 'cold brew' and 'iced coffee' interchangeably, but they're distinct beverages with different characteristics. Iced coffee is simply hot-brewed coffee that's cooled and served over ice—it's quick to make but can taste watery as the ice melts. Cold brew, on the other hand, is made by steeping coarse coffee grounds in cold water for 12-24 hours...",
-        image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80",
-        readTime: "5 min read"
-    },
-    {
-        id: 9,
-        title: "Coffee and Health: What Science Says",
-        author: "Dr. Amanda Foster",
-        date: "2023-12-27",
-        category: "Health & Wellness",
-        excerpt: "Explore the latest scientific research on coffee's effects on health, from antioxidants to caffeine benefits.",
-        content: "Coffee has been the subject of thousands of scientific studies, and the news is mostly good for coffee lovers. Research shows that moderate coffee consumption (3-5 cups per day) is associated with reduced risk of several diseases, including type 2 diabetes, Parkinson's disease, and certain cancers. Coffee is also rich in antioxidants...",
-        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
-        readTime: "8 min read"
-    },
-    {
-        id: 10,
-        title: "Around the World in Coffee: Global Coffee Cultures",
-        author: "Maria Gonzalez",
-        date: "2023-12-20",
-        category: "Coffee Culture",
-        excerpt: "Take a virtual tour of how different cultures around the world enjoy their coffee, from Italy to Ethiopia.",
-        content: "Coffee culture varies dramatically around the world, reflecting local traditions, history, and taste preferences. In Italy, espresso is a way of life—Italians typically enjoy a quick shot at the bar, standing up. Turkish coffee, one of the oldest preparation methods, is thick, strong, and often served with fortune-telling rituals...",
-        image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
-        readTime: "7 min read"
-    },
-    {
-        id: 11,
-        title: "The Science Behind Coffee Roasting",
-        author: "Kevin Brown",
-        date: "2023-12-15",
-        category: "Coffee Education",
-        excerpt: "Understand the complex chemical reactions that occur during coffee roasting and how they create flavor.",
-        content: "Coffee roasting is a precise science involving complex chemical reactions that transform green coffee beans into the aromatic brown beans we know and love. During roasting, beans undergo the Maillard reaction—a chemical reaction between amino acids and reducing sugars that creates hundreds of flavor compounds...",
-        image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80",
-        readTime: "6 min read"
-    },
-    {
-        id: 12,
-        title: "Building the Perfect Home Coffee Bar",
-        author: "Jennifer Lee",
-        date: "2023-12-10",
-        category: "Home Brewing",
-        excerpt: "Create your own coffee sanctuary at home with our guide to essential equipment and setup tips.",
-        content: "Setting up a home coffee bar is easier than you think and can save you money while giving you cafe-quality drinks at home. Start with the essentials: a quality grinder (burr grinders are best), your preferred brewing device (espresso machine, pour over, French press, etc.), and fresh beans. Organize your space efficiently with a dedicated counter area...",
-        image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
-        readTime: "5 min read"
-    }
 ];
